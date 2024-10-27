@@ -40,7 +40,6 @@ dependencies:
   flutter_bloc: ^8.1.6
   syncfusion_flutter_charts: ^27.1.56
   flutter_svg: ^2.0.10+1
-  card_swiper: ^3.0.1
   shimmer: ^3.0.0
 
 dev_dependencies:

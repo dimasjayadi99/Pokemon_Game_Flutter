@@ -1,16 +1,35 @@
 # pokemon_game
 
-technical test app flutter
+Aplikasi Pokemon Game menggunakan Flutter integrasi dengan RESTFul API https://pokeapi.co/.
 
-## Getting Started
+## Screenshot
+![Frame 1 (3)](https://github.com/user-attachments/assets/26f6b99d-f0a1-4e38-a126-b3422662485a)
 
-This project is a starting point for a Flutter application.
+## Instalasi
+1. **Clone repository ini**:  
+   Buka terminal dan jalankan perintah berikut:
+   ```bash
+   git clone <URL_REPOSITORY>
 
-A few resources to get you started if this is your first Flutter project:
+2. Buka dan Jalankan
+- Buka project menggunakan Android Studio
+- Pilih "Open an existing Android Studio project".
+- Arahkan ke folder yang telah di-clone.
+- Build dan jalankan aplikasi di emulator atau perangkat Android
+  ```bash
+  flutter run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Fitur Aplikasi
+- List Pokemon
+- Detail Pokemon (Pokemon image, weight, height, type, statistik, Ability)
+- Compare 2 Pokemon
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Third Party
+- `flutter_bloc`: Untuk manajemen state.
+- `http`: Untuk melakukan permintaan HTTP ke API.
+- `syncfusion_flutter_charts`: Untuk menampilkan grafik.
+- `shimmer`: Untuk efek loading yang lebih menarik.
+- `etc`.
+
+## Credit
+- [Github](https://github.com/dimasjayadi99)
